@@ -7,7 +7,9 @@ using namespace std;
 //********************
 
 void getinput(int&, int &);
-void getinput(float&, float&)
+void getinput(float&, float&);
+void swapTwoValues(int&, int&);
+void swapTwoValues(float&, float&);
 
 int main()
 {
