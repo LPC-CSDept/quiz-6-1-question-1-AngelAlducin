@@ -6,10 +6,10 @@ using namespace std;
 // Declare Function Prototypes
 //********************
 
-void getinput(int&, int&);
-void getinput(float&, float&);
-void swapTwoValues(int&, int&);
-void swapTwoValues(float&, float&);
+void getinput(int& a, int& b);
+void getinput(float& a, float& b);
+void swapTwoValues(int& a, int& b);
+void swapTwoValues(float& a, float& b);
 
 int main()
 {
@@ -22,7 +22,6 @@ int main()
 
 	// -- Call overloaded function with float parameters
 	getinput(fnum1, fnum2);
-	cout << fixed << setprecision(2);
 	cout << " Before Swap" << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
 	swapTwoValues(fnum1, fnum2);
 	cout << " After Swap" << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
