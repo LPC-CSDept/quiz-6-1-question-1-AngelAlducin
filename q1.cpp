@@ -9,7 +9,7 @@ using namespace std;
 void getinput(int &n1, int &n2);
 void getinput(float &f1, float &f2);
 void swapTwoValues(int &n1, int &n2);
-void swapTwoValues(float& &f1, float& &f2);
+void swapTwoValues(float &f1, float &f2);
 
 int main()
 {
@@ -51,7 +51,7 @@ void swapTwoValues(int &n1, int &n2)
 	n2 = a;
 }
 
-void swapTwoValues(float &fl, float &f2)
+void swapTwoValues(float &f1, float &f2)
 {
 	float a = f1;
 	f1 = f2;
