@@ -32,7 +32,7 @@ int main()
 // Implement all your functions here
 // ******************************
 
-void getintput(int &n1, int& &n2)
+void getintput(int &n1, int &n2)
 {
 	cout << "Enter two numbers: ";
 	cin >> n1 >> n2;
