@@ -15,7 +15,6 @@ int main()
 {
 	int num1, num2;
 	float fnum1, fnum2;
-
 	getinput(num1, num2);
 	cout << " Before Swap" << setw(5) << num1 << setw(5) << num2 << setw(5) << endl;
 	swapTwoValues(num1, num2);
