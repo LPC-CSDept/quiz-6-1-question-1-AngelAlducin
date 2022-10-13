@@ -25,3 +25,9 @@ int main()
 // ******************************
 // Implement all your functions here
 // ******************************
+
+void getintput(int& a, int b)
+{
+	cout << "Enter two numbers: ";
+	cin >> a >> b;
+}
