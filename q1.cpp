@@ -23,9 +23,9 @@ int main()
 	// -- Call overloaded function with float parameters
 	getinput(fnum1, fnum2);
 	cout << fixed << setprecision(2);
-	cout << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
+	cout << " Before Swap" << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
 	swapTwoValues(fnum1, fnum2);
-	cout << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
+	cout << " After Swap" << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
 }
 
 // ******************************
