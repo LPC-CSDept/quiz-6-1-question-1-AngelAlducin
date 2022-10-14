@@ -6,10 +6,10 @@ using namespace std;
 // Declare Function Prototypes
 //********************
 
-void getinput(int &, int &);
-void getinput(float &, float &);
-void swapTwoValues(int &, int &);
-void swapTwoValues(float &, float &);
+void getinput(int &n1, int &n2);
+void getinput(float &f1, float &f2);
+void swapTwoValues(int &n1, int &n2);
+void swapTwoValues(float &f1, float &f2);
 
 int main()
 {
